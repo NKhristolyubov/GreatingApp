@@ -13,6 +13,7 @@
 		54EE4F30296FDC5C00CABE63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54EE4F2E296FDC5C00CABE63 /* Main.storyboard */; };
 		54EE4F32296FDC5D00CABE63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54EE4F31296FDC5D00CABE63 /* Assets.xcassets */; };
 		54EE4F35296FDC5D00CABE63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54EE4F33296FDC5D00CABE63 /* LaunchScreen.storyboard */; };
+		54EE4F3D296FDD3D00CABE63 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EE4F3C296FDD3D00CABE63 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		54EE4F31296FDC5D00CABE63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54EE4F34296FDC5D00CABE63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54EE4F36296FDC5D00CABE63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54EE4F3C296FDD3D00CABE63 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,56 @@
 		54EE4F27296FDC5C00CABE63 /* GreatingApp */ = {
 			isa = PBXGroup;
 			children = (
-				54EE4F28296FDC5C00CABE63 /* AppDelegate.swift */,
-				54EE4F2A296FDC5C00CABE63 /* SceneDelegate.swift */,
-				54EE4F2C296FDC5C00CABE63 /* ViewController.swift */,
-				54EE4F2E296FDC5C00CABE63 /* Main.storyboard */,
-				54EE4F31296FDC5D00CABE63 /* Assets.xcassets */,
-				54EE4F33296FDC5D00CABE63 /* LaunchScreen.storyboard */,
-				54EE4F36296FDC5D00CABE63 /* Info.plist */,
+				54EE4F3F296FDE8D00CABE63 /* SupportFiles */,
+				54EE4F41296FDEAB00CABE63 /* ViewControllers */,
+				54EE4F40296FDE9D00CABE63 /* Models */,
+				54EE4F3E296FDE7A00CABE63 /* Storyboards */,
+				54EE4F42296FDEBB00CABE63 /* MediaFiles */,
 			);
 			path = GreatingApp;
+			sourceTree = "<group>";
+		};
+		54EE4F3E296FDE7A00CABE63 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				54EE4F2E296FDC5C00CABE63 /* Main.storyboard */,
+				54EE4F33296FDC5D00CABE63 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		54EE4F3F296FDE8D00CABE63 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				54EE4F28296FDC5C00CABE63 /* AppDelegate.swift */,
+				54EE4F2A296FDC5C00CABE63 /* SceneDelegate.swift */,
+				54EE4F36296FDC5D00CABE63 /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		54EE4F40296FDE9D00CABE63 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				54EE4F3C296FDD3D00CABE63 /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		54EE4F41296FDEAB00CABE63 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				54EE4F2C296FDC5C00CABE63 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		54EE4F42296FDEBB00CABE63 /* MediaFiles */ = {
+			isa = PBXGroup;
+			children = (
+				54EE4F31296FDC5D00CABE63 /* Assets.xcassets */,
+			);
+			path = MediaFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +183,7 @@
 			files = (
 				54EE4F2D296FDC5C00CABE63 /* ViewController.swift in Sources */,
 				54EE4F29296FDC5C00CABE63 /* AppDelegate.swift in Sources */,
+				54EE4F3D296FDD3D00CABE63 /* Person.swift in Sources */,
 				54EE4F2B296FDC5C00CABE63 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,12 +333,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AAASSVY7UK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GreatingApp/Info.plist;
+				INFOPLIST_FILE = GreatingApp/SupportFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +346,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = NKh.GreatingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +364,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AAASSVY7UK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GreatingApp/Info.plist;
+				INFOPLIST_FILE = GreatingApp/SupportFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +377,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = NKh.GreatingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
