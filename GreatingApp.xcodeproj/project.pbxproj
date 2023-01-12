@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5447FB65296FE10E00FDAD0F /* GreatingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5447FB64296FE10E00FDAD0F /* GreatingPresenter.swift */; };
+		5447FB67296FE11A00FDAD0F /* GreatingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5447FB66296FE11A00FDAD0F /* GreatingInteractor.swift */; };
+		5447FB69296FE12800FDAD0F /* GreatingConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5447FB68296FE12800FDAD0F /* GreatingConfigurator.swift */; };
 		54EE4F29296FDC5C00CABE63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EE4F28296FDC5C00CABE63 /* AppDelegate.swift */; };
 		54EE4F2B296FDC5C00CABE63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EE4F2A296FDC5C00CABE63 /* SceneDelegate.swift */; };
-		54EE4F2D296FDC5C00CABE63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EE4F2C296FDC5C00CABE63 /* ViewController.swift */; };
+		54EE4F2D296FDC5C00CABE63 /* GreatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EE4F2C296FDC5C00CABE63 /* GreatingViewController.swift */; };
 		54EE4F30296FDC5C00CABE63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54EE4F2E296FDC5C00CABE63 /* Main.storyboard */; };
 		54EE4F32296FDC5D00CABE63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54EE4F31296FDC5D00CABE63 /* Assets.xcassets */; };
 		54EE4F35296FDC5D00CABE63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54EE4F33296FDC5D00CABE63 /* LaunchScreen.storyboard */; };
@@ -17,10 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5447FB64296FE10E00FDAD0F /* GreatingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatingPresenter.swift; sourceTree = "<group>"; };
+		5447FB66296FE11A00FDAD0F /* GreatingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatingInteractor.swift; sourceTree = "<group>"; };
+		5447FB68296FE12800FDAD0F /* GreatingConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatingConfigurator.swift; sourceTree = "<group>"; };
 		54EE4F25296FDC5C00CABE63 /* GreatingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreatingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54EE4F28296FDC5C00CABE63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54EE4F2A296FDC5C00CABE63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		54EE4F2C296FDC5C00CABE63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54EE4F2C296FDC5C00CABE63 /* GreatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatingViewController.swift; sourceTree = "<group>"; };
 		54EE4F2F296FDC5C00CABE63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54EE4F31296FDC5D00CABE63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54EE4F34296FDC5D00CABE63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,7 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				54EE4F3F296FDE8D00CABE63 /* SupportFiles */,
-				54EE4F41296FDEAB00CABE63 /* ViewControllers */,
+				54EE4F41296FDEAB00CABE63 /* Greating */,
 				54EE4F40296FDE9D00CABE63 /* Models */,
 				54EE4F3E296FDE7A00CABE63 /* Storyboards */,
 				54EE4F42296FDEBB00CABE63 /* MediaFiles */,
@@ -94,12 +100,15 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		54EE4F41296FDEAB00CABE63 /* ViewControllers */ = {
+		54EE4F41296FDEAB00CABE63 /* Greating */ = {
 			isa = PBXGroup;
 			children = (
-				54EE4F2C296FDC5C00CABE63 /* ViewController.swift */,
+				54EE4F2C296FDC5C00CABE63 /* GreatingViewController.swift */,
+				5447FB64296FE10E00FDAD0F /* GreatingPresenter.swift */,
+				5447FB66296FE11A00FDAD0F /* GreatingInteractor.swift */,
+				5447FB68296FE12800FDAD0F /* GreatingConfigurator.swift */,
 			);
-			path = ViewControllers;
+			path = Greating;
 			sourceTree = "<group>";
 		};
 		54EE4F42296FDEBB00CABE63 /* MediaFiles */ = {
@@ -181,8 +190,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54EE4F2D296FDC5C00CABE63 /* ViewController.swift in Sources */,
+				54EE4F2D296FDC5C00CABE63 /* GreatingViewController.swift in Sources */,
+				5447FB69296FE12800FDAD0F /* GreatingConfigurator.swift in Sources */,
+				5447FB67296FE11A00FDAD0F /* GreatingInteractor.swift in Sources */,
 				54EE4F29296FDC5C00CABE63 /* AppDelegate.swift in Sources */,
+				5447FB65296FE10E00FDAD0F /* GreatingPresenter.swift in Sources */,
 				54EE4F3D296FDD3D00CABE63 /* Person.swift in Sources */,
 				54EE4F2B296FDC5C00CABE63 /* SceneDelegate.swift in Sources */,
 			);
